@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    height: 0 auto;
+}
+.main{
+    background-image: url(./img/one2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+    color: white;
+}
+.child{
+    margin-right: 15%;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+.child2{
+    display: flex;
+    list-style: none;
+    
+}
+.child2 li{
+    margin: 10px;
+    font-size: 20px;
+}
+.child3{
+    display: flex;
+    list-style: none;
+}
+.child3 li{
+    margin: 10px;
+    font-size: 20px;
+}
+.para{
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+    font-size: 30px;
+    
+}
+.para p{
+    font-size: 20px;
+}
+.para button{
+    background-color: rgba(0, 0, 0, 0.646);
+    padding: 10px;
+    width: 15%; 
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    border-color: orangered;
+}
+.para button:hover{
+    cursor: pointer;
+
+}
+#form{
+    width: 100%;
+    height: 110vh;
+}
+#form .discover{
+    color: rgb(238, 204, 10);
+    text-align: center;
+    font-size: 50px;
+}
+.make{
+    width: 100%;
+    height: 25vh;
+    padding-top: 30px;
+}
+#form h1{
+    text-align: center;
+    font-size: 50px;
+}
+.form_main{
+    width: 100%;
+    height: 60vh;
+    margin: 0% auto;
+    
+    display: flex;
+}
+.form_img img{
+    height: 67vh;
+    /* margin-top: 80px; */
+    margin-bottom: 30px;
+    padding-left:30px;
+    padding-top: 5px;
+}
+.form_text{
+    margin: 0% auto;
+    width: 100%;
+    height: 60vh;
+    
+    padding-left:120px;
+    padding-top: 40px;
+}
+.a1{
+    border-bottom: 2px solid orangered;
+    color: orange;
+    text-decoration: none;
+}
+.a2{
+    border-bottom: 2px solid black;
+    color: black;
+    text-decoration: none;
+}
+.form_text a{
+    font-size: 20px;
+    /* color: brown; */
+}
+.we{
+    width: 77%;
+    padding: 15px;
+}
+.one1{
+    width: 40%;
+    padding: 15px;
+}
+.one2{
+    width: 41%;
+    padding: 15px;
+}
+.one3{
+    width: 40%;
+    padding: 15px;
+}
+.one4{
+    width: 41%;
+    padding: 15px;
+}
+.form_text button{
+    width: 82%;
+    padding: 20px;
+    background-color: orange;
+    margin-top: 40px;
+    color: white;
+    border: 1px solid orange;
+}
+/* ==============NEXT SECTION================= */
+#containergrid{
+    min-height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    column-gap: 10px;
+}
+.griditem1{
+    min-height: 30vh;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.griditem1 h2{
+    font-size: 30px;
+    padding: 20px;
+    margin: 20px;
+}
+.griditem1 h2 a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+.griditem2{
+    min-height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-image: url(./img/AUTUM\ PIC222.jpg);
+}
+.griditem2 h3{
+    text-align: center;
+    margin-top: 350px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.711);
+    padding: 20px;
+}
+.griditem3{
+    min-height: 30vh;
+    background-image: url(./img/Nelam-velly\ winter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.griditem3 h3{
+    text-align: center;
+    margin-top: 350px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.711);
+    padding: 20px;
+}
+.griditem4{
+    min-height: 40vh;
+    background-image: url(./img/spring\ season.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.griditem4 h3{
+    background-color: rgba(128, 128, 128, 0.711);
+    padding: 20px;
+    text-align: center;
+    margin-top: 350px;
+    color: white;
+}
+.grid_parent{
+    display: grid;
+    min-height: 60px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+    height: 160vh;
+}
+.img1{
+    background-image: url(./img/Group\ 933\ hotel.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img2{
+background-image: url(./img/Group\ 933\ hcking.png);
+background-position: center;
+background-repeat: no-repeat;
+    background-size: cover;
+}
+.img3{
+background-image: url(./img/Group\ 933\ events.png);
+background-position: center;
+background-repeat: no-repeat;
+    background-size: cover;
+}
+.parentitems div{
+    padding: 169px;
+}
+.parentitems2{
+    min-height: 20vh;
+}
+.parentitems2 div{
+    padding: 253px;
+}
+.img22{
+background-image: url(./img/Group\ 933\ culture.png);
+background-repeat: no-repeat;
+background-position: center;
+    background-size: cover;
+}
+.img33{
+background-image: url(./img/Group\ 933\ summer.png);
+background-position: center;
+background-repeat: no-repeat;
+    background-size: cover;
+}
+#placevisit{
+    width: 100%;
+    height: 110vh;
+}
+.allvisit{
+    width: 96%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    min-height: 60vh;
+    margin-top: 40px;
+    margin: 0% auto;
+}
+.visit{
+    font-size: 25px;
+    padding-left: 50px;
+}
+.visit1{
+    background-image: url(./img/Shangirila-Skardu-grid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.visit1 h3{
+    text-align: center;
+    margin-top: 398px;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(13, 0, 0, 0.606);
+    border-radius: 20px;
+}
+.visit2{
+    background-image: url(./img/rush\ lake\ nagar\ valley.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.visit2 h3{
+    text-align: center;
+    margin-top: 398px;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(13, 0, 0, 0.606);
+    border-radius: 20px;
+}
+.visit3{
+    background-image: url(./img/ghizer\ valley\ pic\ in\ 4k.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.visit3 h3{
+    text-align: center;
+    margin-top: 398px;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(13, 0, 0, 0.606);
+    border-radius: 20px;
+}
+.visitparaall{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.visit112 span a{
+    color: red;
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#experisned{
+    width: 100%;
+    height: 290vh;
+}
+.heading{
+    font-size: 28px;
+    margin-left: 88px;
+}
+.overall{
+    padding: 30px;
+}
+.over{
+    /* background-color: rgba(128, 128, 128, 0.81); */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 88%;
+    height: 70vh;
+    margin: 0% auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.over11{
+    background-image: url(./img/Group\ 933\ car.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 60vh;
+    margin-top: 30px;
+}
+.over12{
+    font-size: 25px;
+    margin-top: 30px;
+}
+.over12 p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.over12 li{
+    list-style: none;
+    font-size: 15px;
+}
+.over12 li a{
+    color: red;
+    text-decoration: none;
+}
+.over2{
+    /* background-color: rgba(128, 128, 128, 0.81); */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 88%;
+    height: 70vh;
+    margin: 0% auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.over22{
+    background-image: url(./img/nagar\ valley\ in\ summer\ pic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 60vh;
+    margin-top: 30px;
+}
+.over21{
+    font-size: 25px;
+    margin-top: 30px;
+}
+.over21 p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.over21 li{
+    list-style: none;
+    font-size: 15px;
+    /* padding-top: 0 auto; */
+    /* margin-top: 5px; */
+    /* margin-bottom: 100px; */
+}
+.over21 li a{
+    color: red;
+    text-decoration: none;
+   
+}
+.gbtravel{
+    background-image: url(./img/Group\ 933\ video\ pic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 88%;
+    height: 99vh;
+    margin: 0% auto;
+}
+.gbtravel video{
+    height: 100vh;
+    width: 100%;
+}
+footer{
+    height: 100vh;
+    width: 100%;
+}
+.imgew{
+    background-image: url(./img/footer\ pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
+.imgew h3{
+    margin-left: 500px;
+     color: white;
+    padding-top: 90px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.imgew input{
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid white;
+    width: 350px;
+    padding: 15px;
+    margin-top: 30px;
+    /* padding-top: 30px; */
+    margin-left: 500px;
+color: aliceblue;
+}
+
+.imgew input::placeholder{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.black{
+    background-color: rgb(0, 12, 18);
+    width: 100%;
+    height: 60vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.first_ul{
+    padding-top: 40px;
+    list-style: none;
+    padding-right: 250px;
+}
+.first_ul li{
+    padding: 20px;
+    padding-right: 40px;
+}
+
